@@ -1,5 +1,6 @@
 package com.gla;
-public enum BookCategory{
+
+public enum BookCategory {
     MATHEMATICS,
     PSYCHOLOGY,
     BIOLOGY,

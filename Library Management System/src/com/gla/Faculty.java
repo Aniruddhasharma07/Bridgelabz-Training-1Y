@@ -1,9 +1,14 @@
 package com.gla;
-public class Faculty extends User{
+
+public class Faculty extends User {
     private int facultyId;
-    public Faculty(String name, int facultyId){
+
+    public Faculty(String name, int facultyId) {
         super(name);
-        this.facultyId=facultyId;
+        this.facultyId = facultyId;
     }
-    public int getFacultyId(){return facultyId;}
+
+    public int getFacultyId() {
+        return facultyId;
+    }
 }
